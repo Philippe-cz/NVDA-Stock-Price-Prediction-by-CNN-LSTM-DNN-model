@@ -6,18 +6,18 @@ Bellow code is only for informative purpose, i renounce any responsibility regar
 
 This page does following:
 
-- load libraries and load stock data as dataframe
-- display chart with close price
-- add indicators to loaded dataframe
-- filter out formations and get its windows
-- Export data to csv file
+- load libraries and load stock data as dataframe<br>
+- display chart with close price<br>
+- add indicators to loaded dataframe<br>
+- filter out formations and get its windows<br>
+- Export data to csv file<br>
 
 <b>Trading strategy</b>
-Trading chart: Daily
-Trade type: LONG
-Stock: NVDA
-Entry price: High price of previous week
-Exit price: Model predicts Highest high price of following month (4 weeks period)
+Trading chart: Daily<br>
+Trade type: LONG<br>
+Stock: NVDA<br>
+Entry price: High price of previous week<br>
+Exit price: Model predicts Highest high price of following month (4 weeks period)<br>
 
 <b>Trading Data</b>
 We are loading weekly data from yahoo finance. We are preprocessing dataset in following order - 5 candle formation (representing 5 weeks) + 1 monthly candle as label (following 4 weeks period). Bellow code will preprocess data in such order, 6th candle in window is always a monthly candle.
