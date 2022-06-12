@@ -1,6 +1,6 @@
 # NVDA-Stock-Price-Prediction-by-CNN-LSTM-DNN-model
-DISCLAIMER:
-Bellow code is only for informative purpose, i renounce any responsibility regarding this code and trained model causing loss of money during trading on real market.
+<i>DISCLAIMER:
+Bellow code is only for informative purpose, i renounce any responsibility regarding this code and trained model causing loss of money during trading on real market.</i>
 
 Stock price prediction : NVDA
 This page does following:
