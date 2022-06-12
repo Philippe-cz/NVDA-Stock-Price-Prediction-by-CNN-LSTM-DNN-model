@@ -36,3 +36,5 @@ Condition 0: Last candle close is lower than EMA6<br>
 Condition 1: EMA6 is lower than EMA12<br><br>
 
 We are getting windows from stock dataset, each window has 6 rows (6 candles), 5 rows (formation) + 1 row (label). Our above condition is using only last two candles from formation, however model will be trained on 5 candles, please refer to image bellow.
+
+<img src='Formation_NVDA.jpg' width=600, height='500'>
