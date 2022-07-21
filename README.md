@@ -33,5 +33,3 @@ Trading method is following:
 
 
 We are getting windows from stock dataset, each window has 25 rows (25 candles), 24 rows (formation) + 1 row (label).
-
-<img src='Formation_NVDA.jpg' width=600, height='500'>
